@@ -1,11 +1,16 @@
 /** @format */
 
 import React from "react";
+import OnlineTraining from "../OnlineTraining/OnlineTraining";
+import TrendingCourses from "../TrendingCourses/TrendingCourses";
+import UniversityPartner from "../UniversityPartner/UniversityPartner";
 
 const Home = () => {
   return (
     <div>
-      <h2>This is Home Page</h2>
+      <UniversityPartner></UniversityPartner>
+      <OnlineTraining></OnlineTraining>
+      <TrendingCourses></TrendingCourses>
     </div>
   );
 };
