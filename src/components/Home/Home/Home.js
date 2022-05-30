@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <UniversityPartner></UniversityPartner>
       <OnlineTraining></OnlineTraining>
-      <TrendingCourses></TrendingCourses>
+      {/* <TrendingCourses></TrendingCourses> */}
     </div>
   );
 };
