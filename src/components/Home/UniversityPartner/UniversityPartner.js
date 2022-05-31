@@ -15,37 +15,37 @@ import image8 from "../../../images/university-partner/Untitled-8.png";
 const UniversityPartner = () => {
   return (
     <div>
-      <div class='container partner'>
+      <div className='container partner '>
         <h2 className='fw-bolder pb-5 pt-5 '>Top University Partners</h2>
 
-        <div class='row row-cols-1 row-cols-sm-2 row-cols-md-4'>
-          <div class='col'>
+        <div className='row row-cols-1 row-cols-sm-2 row-cols-md-4'>
+          <div className='col'>
             <img src={image1} alt='' className='img-fluid' />
           </div>
-          <div class='col'>
+          <div className='col'>
             <img src={image2} alt='' className='img-fluid' />
           </div>
-          <div class='col'>
+          <div className='col'>
             <img src={image3} alt='' className='img-fluid' />
           </div>
-          <div class='col'>
+          <div className='col'>
             <img src={image4} alt='' className='img-fluid' />
           </div>
         </div>
-        <div class='row row-cols-1 row-cols-sm-2 row-cols-md-4'>
-          <div class='col'>
+        <div className='row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-5'>
+          <div className='col'>
             <img src={image5} alt='' className='img-fluid' />
           </div>
 
-          <div class='col'>
+          <div className='col'>
             <img src={image6} alt='' className='img-fluid' />
           </div>
 
-          <div class='col'>
+          <div className='col'>
             <img src={image7} alt='' className='img-fluid' />
           </div>
 
-          <div class='col'>
+          <div className='col'>
             <img src={image8} alt='' className='img-fluid' />
           </div>
         </div>

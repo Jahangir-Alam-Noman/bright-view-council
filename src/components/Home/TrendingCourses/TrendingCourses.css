@@ -1,1 +1,13 @@
 /** @format */
+
+.trending_courses{
+    background-color:#FFFFFF ;
+}
+
+.dollar_text{
+    color: #008000;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 0rem 0rem;
+}

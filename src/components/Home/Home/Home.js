@@ -1,6 +1,11 @@
 /** @format */
 
 import React from "react";
+import DataScienceCourses from "../DataScienceCourses/DataScienceCourses";
+import FeatureCourses from "../FeatureCourses/FeatureCourses";
+import ItCourses from "../ItCourses/ItCourses";
+import JoinCommunity from "../JoinCommunity/JoinCommunity";
+import NetworkingCourses from "../NetworkingCourses/NetworkingCourses";
 import OnlineTraining from "../OnlineTraining/OnlineTraining";
 import TrendingCourses from "../TrendingCourses/TrendingCourses";
 import UniversityPartner from "../UniversityPartner/UniversityPartner";
@@ -10,7 +15,12 @@ const Home = () => {
     <div>
       <UniversityPartner></UniversityPartner>
       <OnlineTraining></OnlineTraining>
-      {/* <TrendingCourses></TrendingCourses> */}
+      <TrendingCourses></TrendingCourses>
+      <ItCourses></ItCourses>
+      <NetworkingCourses></NetworkingCourses>
+      <DataScienceCourses></DataScienceCourses>
+      <FeatureCourses></FeatureCourses>
+      <JoinCommunity></JoinCommunity>
     </div>
   );
 };
