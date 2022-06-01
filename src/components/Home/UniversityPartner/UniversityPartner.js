@@ -16,7 +16,7 @@ const UniversityPartner = () => {
   return (
     <div>
       <div className='container partner '>
-        <h2 className='fw-bolder pb-5 pt-5 '>Top University Partnersypppyyy</h2>
+        <h2 className='fw-bolder pb-5 pt-5 '>Top University Partners</h2>
 
         <div className='row row-cols-1 row-cols-sm-2 row-cols-md-4'>
           <div className='col'>
