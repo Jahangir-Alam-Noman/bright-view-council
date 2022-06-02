@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import Footer from "../../Shared/Footer/Footer";
 import DataScienceCourses from "../DataScienceCourses/DataScienceCourses";
 import FeatureCourses from "../FeatureCourses/FeatureCourses";
 import ItCourses from "../ItCourses/ItCourses";
@@ -20,7 +21,8 @@ const Home = () => {
       <NetworkingCourses></NetworkingCourses>
       <DataScienceCourses></DataScienceCourses>
       <FeatureCourses></FeatureCourses>
-      <JoinCommunity></JoinCommunity>
+      {/* <JoinCommunity></JoinCommunity> */}
+      <Footer></Footer>
     </div>
   );
 };
