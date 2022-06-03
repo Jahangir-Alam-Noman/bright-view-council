@@ -1,3 +1,6 @@
-.join_community{
-    max-width: 540px;
+/** @format */
+
+.join_community {
+  background-color: #ffffff;
+  padding: 70px;
 }

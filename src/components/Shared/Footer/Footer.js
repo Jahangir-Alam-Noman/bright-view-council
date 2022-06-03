@@ -6,12 +6,14 @@ import logo from "../../../images/Logo/logo-1.png";
 
 const Footer = () => {
   return (
-    <div className='footer mt-5'>
+    <div className='footer mt-4'>
       <div class='container footer_top '>
         <div class='row'>
           <div class='col-lg-6 col-12 text-start'>
             <div>
-              <img src={logo} alt='' />
+              <a href=''>
+                <img src={logo} alt='' />
+              </a>
               <p className='pt-3 text-muted '>Shape your career with us .</p>
               <div className='icon'>
                 <p>

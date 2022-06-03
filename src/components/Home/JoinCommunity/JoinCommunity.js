@@ -1,36 +1,33 @@
+/** @format */
+
 import React from "react";
 import "./JoinCommunity.css";
+import images from "../../../images/Join-community/join-community.jpg";
 
 const JoinCommunity = () => {
   return (
-
-    // <div class="container partner pt-5 mt-5">
-    //     <div class="row">
-    //       <div class="col-sm-8">col-sm-8</div>
-    //       <div class="col-sm-4">col-sm-4</div>
-    //     </div>
-    // </div>
-
-    
-    <div className="container">
-      <div class="card mb-3 join_community">
-        <div class="row g-0">
-          <div class="col-md-2">
-            <i className="fa fa-train fs-1 ps-3" aria-hidden="true"></i>
-          </div>
-          <div class="col-md-6">
-            <div class="card-body text-start">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit 
-              </p>
-              <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </p>
+    <div>
+      <div className='container mt-4  join_community'>
+        <div className='row'>
+          <div className='col-sm-10 col-md-10'>
+            <div className='row '>
+              <div className='col-sm-2 col-md-2'>
+                <img src={images} alt='' className='img-fluid' />
+              </div>
+              <div className='col-sm-10 col-md-10 pt-4 text-start'>
+                <h4>Join The community.</h4>
+                <p>
+                  Sign up and exciting Offers in this auspicious season of
+                  learning. Let's join the
+                </p>
+              </div>
             </div>
           </div>
-          <div class="col-md-6"></div>
+          <div className=' col-sm-2 col-md-2 pt-4'>
+            <button type='button' className='btn btn-dark'>
+              Sign Up
+            </button>
+          </div>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@
 
 import React from "react";
 import Footer from "../../Shared/Footer/Footer";
+import Banner from "../Banner/Banner";
 import DataScienceCourses from "../DataScienceCourses/DataScienceCourses";
 import FeatureCourses from "../FeatureCourses/FeatureCourses";
 import ItCourses from "../ItCourses/ItCourses";
@@ -14,6 +15,7 @@ import UniversityPartner from "../UniversityPartner/UniversityPartner";
 const Home = () => {
   return (
     <div>
+      <Banner></Banner>
       <UniversityPartner></UniversityPartner>
       <OnlineTraining></OnlineTraining>
       <TrendingCourses></TrendingCourses>
@@ -21,7 +23,7 @@ const Home = () => {
       <NetworkingCourses></NetworkingCourses>
       <DataScienceCourses></DataScienceCourses>
       <FeatureCourses></FeatureCourses>
-      {/* <JoinCommunity></JoinCommunity> */}
+      <JoinCommunity></JoinCommunity>
       <Footer></Footer>
     </div>
   );
