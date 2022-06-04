@@ -6,7 +6,7 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <div className='overlay'>
-      <div className='div text-start best_course '>
+      <div className='div text-start best_course  d-none d-sm-block'>
         <h3 className='fw-bolder'>Find Best Course that fits your need</h3>
         <p>
           We have design some of the top IT courses that will take you hand by

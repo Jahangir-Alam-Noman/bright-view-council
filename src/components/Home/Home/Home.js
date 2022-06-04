@@ -2,6 +2,7 @@
 
 import React from "react";
 import Footer from "../../Shared/Footer/Footer";
+import Headers from "../../Shared/Headers/Headers";
 import Banner from "../Banner/Banner";
 import DataScienceCourses from "../DataScienceCourses/DataScienceCourses";
 import FeatureCourses from "../FeatureCourses/FeatureCourses";
@@ -9,6 +10,7 @@ import ItCourses from "../ItCourses/ItCourses";
 import JoinCommunity from "../JoinCommunity/JoinCommunity";
 import NetworkingCourses from "../NetworkingCourses/NetworkingCourses";
 import OnlineTraining from "../OnlineTraining/OnlineTraining";
+import StudentInfo from "../StudentInfo/StudentInfo";
 import TrendingCourses from "../TrendingCourses/TrendingCourses";
 import UniversityPartner from "../UniversityPartner/UniversityPartner";
 
@@ -16,6 +18,7 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
+      <StudentInfo></StudentInfo>
       <UniversityPartner></UniversityPartner>
       <OnlineTraining></OnlineTraining>
       <TrendingCourses></TrendingCourses>
@@ -24,7 +27,6 @@ const Home = () => {
       <DataScienceCourses></DataScienceCourses>
       <FeatureCourses></FeatureCourses>
       <JoinCommunity></JoinCommunity>
-      <Footer></Footer>
     </div>
   );
 };
