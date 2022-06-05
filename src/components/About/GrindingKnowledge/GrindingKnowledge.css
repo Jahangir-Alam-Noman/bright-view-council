@@ -3,3 +3,8 @@
 .grinding_knowledge {
   background-color: #ffffff;
 }
+.grinding_knowledge_image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
