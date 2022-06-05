@@ -6,16 +6,18 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Headers from "./components/Shared/Headers/Headers";
 import Footer from "./components/Shared/Footer/Footer";
 import About from "./components/About/About/About";
+import Contact from "./components/Contact/Contact/Contact";
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Router>
         <Headers></Headers>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/home' element={<Home />} />
-          <Route path='/about' element={<About />}></Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
         </Routes>
         <Footer></Footer>
       </Router>

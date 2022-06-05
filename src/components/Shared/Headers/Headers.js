@@ -162,13 +162,23 @@ const Headers = () => {
 
       <div className="container-fluid courses_info pt-3 pb-3 ">
         <div className="row ">
-          <div className="col">Data Science</div>
-          <div className="col">Network & Security</div>
-          <div className="col">Programming</div>
-          <div className="col">Web & Mobile</div>
-          <div className="col">Software Testimng</div>
-          <div className="col">Database</div>
-          <div className="col">Software Engineering</div>
+          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+            Data Science
+          </div>
+          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+            Network & Security
+          </div>
+          <div className="col-xs-6 col-sm-1 col-md-1 col-lg-1">Programming</div>
+          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+            Web & Mobile Development
+          </div>
+          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+            Software Testing
+          </div>
+          <div className="col-xs-6 col-sm-1 col-md-1 col-lg-1">Database</div>
+          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+            Software Engineering
+          </div>
         </div>
       </div>
     </div>
