@@ -12,7 +12,7 @@ const GrindingKnowledge = () => {
           <div class='col-8'>
             <h2>We are hub of Grinding knowledge</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              hello 2222222 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Praesentium vero odit dicta illo veritatis assumenda quibusdam
               eaque alias, doloremque error! Dignissimos deserunt expedita
               temporibus eos iure ducimus officia ea illo, voluptate adipisci
