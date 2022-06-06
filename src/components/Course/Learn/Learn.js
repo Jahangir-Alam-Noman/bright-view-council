@@ -14,31 +14,27 @@ const Learn = () => {
               <div className="col-sm-4 col-md-4">
                 <ul>
                   <li>
-                    <i class="fa fa-angle-right fs-5" aria-hidden="true"></i>{" "}
+                    <i class="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class="fa fa-angle-right fs-5" aria-hidden="true"></i>{" "}
+                    <i class="fa fa-check" aria-hidden="true"></i> &nbsp;State
+                    Management
+                  </li>
+                  <li>
+                    <i class="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class="fa fa-angle-right fs-5" aria-hidden="true"></i>{" "}
+                    <i class="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class="fa fa-angle-right fs-5" aria-hidden="true"></i>{" "}
+                    <i class="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class="fa fa-angle-right fs-5" aria-hidden="true"></i>{" "}
-                    &nbsp;Database Designing
-                  </li>
-                  <li>
-                    <i class="fa fa-angle-right fs-5" aria-hidden="true"></i>{" "}
-                    &nbsp;Database Designing
-                  </li>
-                  <li>
-                    <i class="fa fa-angle-right fs-5" aria-hidden="true"></i>{" "}
+                    <i class="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                 </ul>
@@ -46,23 +42,27 @@ const Learn = () => {
               <div className="col-sm-4 col-md-4">
                 <ul>
                   <li>
-                    <i class="fa fa-angle-right fs-5" aria-hidden="true"></i>{" "}
+                    <i class="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class="fa fa-angle-right fs-5" aria-hidden="true"></i>{" "}
+                    <i class="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class="fa fa-angle-right fs-5" aria-hidden="true"></i>{" "}
+                    <i class="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class="fa fa-angle-right fs-5" aria-hidden="true"></i>{" "}
+                    <i class="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class="fa fa-angle-right fs-5" aria-hidden="true"></i>{" "}
+                    <i class="fa fa-check" aria-hidden="true"></i>{" "}
+                    &nbsp;Database Designing
+                  </li>
+                  <li>
+                    <i class="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                 </ul>

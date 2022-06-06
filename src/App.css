@@ -1,8 +1,33 @@
 /** @format */
 
+/* Home page */
+@import "./assets/css/Banner.css";
+
+/* About page */
+@import "./assets/css/About.css";
+@import "./assets/css/AboutBanner.css";
+@import "./assets/css/ExpertLearning.css";
+@import "./assets/css/GrindingKnowledge.css";
+@import "./assets/css/MoneyBack.css";
+@import "./assets/css/Started.css";
+@import "./assets/css/Support.css";
+
+/* Contact page */
+@import "./assets/css/Contact.css";
+
+/* Course page */
+@import "./assets/css/Course.css";
+@import "./assets/css/CourseBanner.css";
+@import "./assets/css/Learn.css";
+
+/* Shared page */
+@import "./assets/css/Footer.css";
+@import "./assets/css/Headers.css";
+
+/* build in app.ccs css properties  */
 .App {
   text-align: center;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .App-logo {
