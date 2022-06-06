@@ -17,6 +17,7 @@ import UniversityPartner from "../UniversityPartner/UniversityPartner";
 const Home = () => {
   return (
     <div>
+      <Headers></Headers>
       <Banner></Banner>
       <StudentInfo></StudentInfo>
       <UniversityPartner></UniversityPartner>

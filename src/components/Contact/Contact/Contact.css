@@ -1,6 +1,18 @@
 /* .contact {
   max-width: 540px;
 } */
+
 .border {
   border-right: 1px solid greenyellow;
+}
+
+.contact .fa {
+  color: black;
+}
+
+.contact .message {
+  height: 200px;
+}
+.contact .form-control {
+  background-color: #ffffff;
 }

@@ -1,55 +1,10 @@
-/** @format */
-
 import React from "react";
-import "./Headers.css";
-import logo from "../../../images/Logo/logo-1.png";
 import { Link } from "react-router-dom";
+import logo from "../../../images/Logo/logo-1.png";
 
-const Headers = () => {
+const Nav = () => {
   return (
     <div>
-      <div className="container-fluid">
-        <div className="row copyrightRow copyright pt-3 pb-3">
-          {/* <p className='copyright pt-3 pb-1'></p> */}
-          {/* <div className='col text-start ps-5 '>
-            {" "}
-            Copyright@2022 . All Right reserved by Bright View Council
-          </div>
-          <div className='col ps-5'>Developed and maintained by bvcouncil.com</div> */}
-
-          <div className="col-md-10 text-start">
-            <p>
-              <a href="#" className="text-white">
-                Have any Questions ?
-              </a>
-              <span>
-                <i className="fa fa-phone ps-3" aria-hidden="true">
-                  {" "}
-                  &nbsp;+917890466296
-                </i>
-              </span>
-              <span className="text-white">
-                <i className="fa fa-envelope-o ps-3" aria-hidden="true">
-                  {" "}
-                  &nbsp; info@bvcouncil.com
-                </i>
-              </span>
-            </p>
-          </div>
-          <div className="col-6 col-md-2">
-            <select
-              className="form-select form-select-sm"
-              aria-label=".form-select-sm example"
-            >
-              <option selected>Select Language</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-          </div>
-        </div>
-      </div>
-      {/* Top nav end */}
       <nav className="navbar navbar-expand-lg  navbar-light bg-white">
         <div className="container-fluid">
           <Link to="/home" className="navbar-brand">
@@ -163,32 +118,8 @@ const Headers = () => {
           </div>
         </div>
       </nav>
-      <hr className="bar"></hr>
-      {/* Navber end */}
-
-      <div className="container-fluid courses_info pt-3 pb-3 ">
-        <div className="row ">
-          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-            Data Science
-          </div>
-          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-            Network & Security
-          </div>
-          <div className="col-xs-6 col-sm-1 col-md-1 col-lg-1">Programming</div>
-          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-            Web & Mobile App
-          </div>
-          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-            Software Testing
-          </div>
-          <div className="col-xs-6 col-sm-1 col-md-1 col-lg-1">Database</div>
-          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-            Software Engineering
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
 
-export default Headers;
+export default Nav;
