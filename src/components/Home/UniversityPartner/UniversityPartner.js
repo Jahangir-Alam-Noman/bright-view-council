@@ -1,16 +1,15 @@
 /** @format */
 
 import React from "react";
-import "./UniversityPartner.css";
 
-import image1 from "../../../images/university-partner/Untitled-1.png";
-import image2 from "../../../images/university-partner/Untitled-2.png";
-import image3 from "../../../images/university-partner/Untitled-3.png";
-import image4 from "../../../images/university-partner/Untitled-4.png";
-import image5 from "../../../images/university-partner/Untitled-5.png";
-import image6 from "../../../images/university-partner/Untitled-6.png";
-import image7 from "../../../images/university-partner/Untitled-7.png";
-import image8 from "../../../images/university-partner/Untitled-8.png";
+import image1 from "../../../assets/img/university-partner/Untitled-1.png";
+import image2 from "../../../assets/img/university-partner/Untitled-2.png";
+import image3 from "../../../assets/img/university-partner/Untitled-3.png";
+import image4 from "../../../assets/img/university-partner/Untitled-4.png";
+import image5 from "../../../assets/img/university-partner/Untitled-5.png";
+import image6 from "../../../assets/img/university-partner/Untitled-6.png";
+import image7 from "../../../assets/img/university-partner/Untitled-7.png";
+import image8 from "../../../assets/img/university-partner/Untitled-8.png";
 
 const UniversityPartner = () => {
   return (

@@ -1,13 +1,12 @@
 /** @format */
 
 import React from "react";
-import "./AboutBanner.css";
 
 const AboutBanner = () => {
   return (
-    <div className="aboutBanner text-start">
-      <div className="about_content  ">
-        <h3 className="fw-bolder">We bring top notch education to student</h3>
+    <div className='aboutBanner text-start'>
+      <div className='about_content  '>
+        <h3 className='fw-bolder'>We bring top notch education to student</h3>
         <p>
           We have design some of the top IT courses that will take you hand by
           hand to make your prepare for your career. We guarantee your learning

@@ -2,6 +2,15 @@
 
 /* Home page */
 @import "./assets/css/Banner.css";
+@import "./assets/css/DataScienceCourses.css";
+@import "./assets/css/FeatureCourses.css";
+@import "./assets/css/ItCourses.css";
+@import "./assets/css/JoinCommunity.css";
+@import "./assets/css/NetworkingCourses.css";
+@import "./assets/css/OnlineTraining.css";
+@import "./assets/css/StudentInfo.css";
+@import "./assets/css/TrendingCourses.css";
+@import "./assets/css/UniversityPartner.css";
 
 /* About page */
 @import "./assets/css/About.css";

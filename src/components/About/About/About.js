@@ -8,7 +8,6 @@ import GrindingKnowledge from "../GrindingKnowledge/GrindingKnowledge";
 import MoneyBack from "../MoneyBack/MoneyBack";
 import Started from "../Started/Started";
 import Support from "../Support/Support";
-import "./About.css";
 
 const About = () => {
   return (

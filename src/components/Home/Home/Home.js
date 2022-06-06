@@ -1,7 +1,6 @@
 /** @format */
 
 import React from "react";
-import Footer from "../../Shared/Footer/Footer";
 import Headers from "../../Shared/Headers/Headers";
 import Banner from "../Banner/Banner";
 import DataScienceCourses from "../DataScienceCourses/DataScienceCourses";

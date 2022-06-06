@@ -1,14 +1,15 @@
+/** @format */
+
 import React from "react";
-import "./Started.css";
 
 const Started = () => {
   return (
     <div>
-      <div className="container-fluid started mt-4 mb-4 p-5 ">
-        <h2 className="fw-bold">It started in 2014 </h2>
-        <div className="row  ">
-          <div className="col-xs-12 offset-sm-3 col-sm-6 offset-md-3 col-md-6 offset-md-3 col-md-6 ">
-            <p className="text-center">
+      <div className='container-fluid started mt-4 mb-4 p-5 '>
+        <h2 className='fw-bold'>It started in 2014 </h2>
+        <div className='row  '>
+          <div className='col-xs-12 offset-sm-3 col-sm-6 offset-md-3 col-md-6 offset-md-3 col-md-6 '>
+            <p className='text-center'>
               {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
               soluta amet placeat assumenda deleniti ab doloribus numquam

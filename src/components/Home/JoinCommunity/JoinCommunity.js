@@ -1,8 +1,7 @@
 /** @format */
 
 import React from "react";
-import "./JoinCommunity.css";
-import images from "../../../images/Join-community/join-community.jpg";
+import images from "../../../assets/img/Join-community/join-community.jpg";
 
 const JoinCommunity = () => {
   return (

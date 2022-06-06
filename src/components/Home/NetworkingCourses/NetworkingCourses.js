@@ -1,10 +1,10 @@
 /** @format */
 
 import React from "react";
-import "./NetworkingCourses.css";
-import image1 from "../../../images/Trending-courses/course_1.png";
-import image2 from "../../../images/Trending-courses/course_2.jpg";
-import image3 from "../../../images/Trending-courses/course_3.jpg";
+
+import image1 from "../../../assets/img/Trending-courses/course_1.png";
+import image2 from "../../../assets/img/Trending-courses/course_2.jpg";
+import image3 from "../../../assets/img/Trending-courses/course_3.jpg";
 
 const NetworkingCourses = () => {
   return (
