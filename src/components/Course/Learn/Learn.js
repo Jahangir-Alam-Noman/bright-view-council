@@ -5,65 +5,65 @@ import React from "react";
 const Learn = () => {
   return (
     <div>
-      <div className='container mt-5  '>
-        <div className='row  '>
-          <div className='col-md-8 learn pb-5 '>
-            <h4 className='pt-5 text-start fw-bolder ps-4'>
+      <div className="container mt-5  ">
+        <div className="row  ">
+          <div className="col-md-8 learn pb-5 ">
+            <h4 className="pt-5 text-start fw-bolder ps-4">
               What you will learn
             </h4>
-            <div className='row p-2 '>
-              <div className='col-sm-4 col-md-4'>
+            <div className="row p-2 ">
+              <div className="col-sm-4 col-md-4">
                 <ul>
                   <li>
-                    <i class='fa fa-check' aria-hidden='true'></i>{" "}
+                    <i className="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class='fa fa-check' aria-hidden='true'></i> &nbsp;State
-                    Management
+                    <i className="fa fa-check" aria-hidden="true"></i>{" "}
+                    &nbsp;State Management
                   </li>
                   <li>
-                    <i class='fa fa-check' aria-hidden='true'></i>{" "}
+                    <i className="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class='fa fa-check' aria-hidden='true'></i>{" "}
+                    <i className="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class='fa fa-check' aria-hidden='true'></i>{" "}
+                    <i className="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class='fa fa-check' aria-hidden='true'></i>{" "}
+                    <i className="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                 </ul>
               </div>
-              <div className='col-sm-4 col-md-4'>
+              <div className="col-sm-4 col-md-4">
                 <ul>
                   <li>
-                    <i class='fa fa-check' aria-hidden='true'></i>{" "}
+                    <i className="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class='fa fa-check' aria-hidden='true'></i>{" "}
+                    <i className="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class='fa fa-check' aria-hidden='true'></i>{" "}
+                    <i className="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class='fa fa-check' aria-hidden='true'></i>{" "}
+                    <i className="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class='fa fa-check' aria-hidden='true'></i>{" "}
+                    <i className="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                   <li>
-                    <i class='fa fa-check' aria-hidden='true'></i>{" "}
+                    <i className="fa fa-check" aria-hidden="true"></i>{" "}
                     &nbsp;Database Designing
                   </li>
                 </ul>

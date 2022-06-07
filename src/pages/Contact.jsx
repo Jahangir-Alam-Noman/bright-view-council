@@ -1,7 +1,5 @@
 import React from "react";
-import "./Contact.css";
-import image from "../../../images/Trending-courses/course_1.png";
-import Headers from "../../Shared/Headers/Headers";
+import Headers from "../components/Shared/Headers/Headers";
 
 const Contact = () => {
   return (

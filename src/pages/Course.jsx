@@ -1,8 +1,7 @@
 import React from "react";
-import CourseBanner from "../CourseBanner/CourseBanner";
-import Learn from "../Learn/Learn";
-import Nav from "../Nav/Nav";
-import "./Course.css";
+import CourseBanner from "../components/Course/CourseBanner/CourseBanner";
+import Learn from "../components/Course/Learn/Learn";
+import Nav from "../components/Course/Nav/Nav";
 
 const Course = () => {
   return (

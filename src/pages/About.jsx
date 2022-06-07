@@ -1,14 +1,13 @@
 /** @format */
 
 import React from "react";
-import Headers from "../../Shared/Headers/Headers";
-import AboutBanner from "../AboutBanner/AboutBanner";
-import ExpertLearning from "../ExpertLearning/ExpertLearning";
-import GrindingKnowledge from "../GrindingKnowledge/GrindingKnowledge";
-import MoneyBack from "../MoneyBack/MoneyBack";
-import Started from "../Started/Started";
-import Support from "../Support/Support";
-import "./About.css";
+import AboutBanner from "../components/About/AboutBanner/AboutBanner";
+import ExpertLearning from "../components/About/ExpertLearning/ExpertLearning";
+import GrindingKnowledge from "../components/About/GrindingKnowledge/GrindingKnowledge";
+import MoneyBack from "../components/About/MoneyBack/MoneyBack";
+import Started from "../components/About/Started/Started";
+import Support from "../components/About/Support/Support";
+import Headers from "../components/Shared/Headers/Headers";
 
 const About = () => {
   return (
