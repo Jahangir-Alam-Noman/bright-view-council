@@ -27,13 +27,13 @@ const CourseBanner = () => {
             </div>
           </div>
 
-          <div className="col-xs-12  col-sm-4 col-md-4 col-lg-4 course_position">
-            <div className="card w-75 course_card p-3">
+          <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4 course_position">
+            <div className="card  course_card p-3">
               <img src={image1} className="card-img-top" alt="..." />
               <div className="card-body">
                 <div className="div">
                   <h5 className="card-title fw-bold pt-2">$250.00</h5>
-                  <p className="text-muted">30-days maney back-gurantee</p>
+                  <p className="text-muted">30-days m0ney back-gurantee</p>
                 </div>
                 <button type="button" className="btn btn-dark w-100">
                   Enroll Now
