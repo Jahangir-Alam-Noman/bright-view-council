@@ -1,4 +1,5 @@
 /** @format */
+// Hello app.js
 
 import "./App.css";
 import Home from "./components/Home/Home/Home";
@@ -10,14 +11,14 @@ import Course from "./components/Course/Course/Course";
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Router>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/home' element={<Home />} />
-          <Route path='/about' element={<About />}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
-          <Route path='/course' element={<Course />}></Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/course" element={<Course />}></Route>
         </Routes>
         <Footer></Footer>
       </Router>
