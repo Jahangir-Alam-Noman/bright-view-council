@@ -13,7 +13,7 @@ ul {
   /* list-style: none; */
 }
 .course_card {
-  width: 18rem;
+  width: 20rem;
   color: #2a283b;
   border-radius: 0px;
 }
@@ -23,13 +23,24 @@ ul {
   top: 120px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .course_position {
     position: relative;
     top: 170px;
-    left: 200px;
+    left: 250px;
   }
   .course_card {
     width: 200px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /*  .course_position {
+    position: relative;
+    top: 170px;
+    left: 250px;
+  } */
+  .course_card {
+    width: 50px;
   }
 }
