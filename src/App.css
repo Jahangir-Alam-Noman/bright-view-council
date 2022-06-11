@@ -28,6 +28,8 @@
 @import "./assets/css/Course.css";
 @import "./assets/css/CourseBanner.css";
 @import "./assets/css/Learn.css";
+@import "./assets/css/AboutCourse.css";
+@import "./assets/css/CourseContent.css";
 
 /* Shared page */
 @import "./assets/css/Footer.css";
