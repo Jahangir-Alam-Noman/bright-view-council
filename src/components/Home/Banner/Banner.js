@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+// banner part
 
 const Banner = () => {
   return (
