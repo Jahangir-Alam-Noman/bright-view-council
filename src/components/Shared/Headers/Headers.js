@@ -28,7 +28,7 @@ const Headers = () => {
                 </i>
               </span>
               <span className="text-white">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
                 <i className="fa fa-envelope-o " aria-hidden="true">
                   {" "}
                   &nbsp; info@bvcouncil.com
@@ -84,7 +84,7 @@ const Headers = () => {
           </form>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
                   to="/home"
@@ -167,22 +167,25 @@ const Headers = () => {
       {/* Navber end */}
 
       <div className="container-fluid courses_info pt-3 pb-3 ">
-        <div className="row ">
-          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+        <div className="row  ">
+          <div className="col-xs-6 col-sm-12 col-md-12 col-lg-2">
             Data Science
           </div>
-          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+
+          <div className="col-xs-6 col-sm-12 col-md-12 col-lg-2">
             Network & Security
           </div>
-          <div className="col-xs-6 col-sm-1 col-md-1 col-lg-1">Programming</div>
-          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+          <div className="col-xs-6 col-sm-12 col-md-12 col-lg-1">
+            Programming
+          </div>
+          <div className="col-xs-6 col-sm-12 col-md-12 col-lg-2">
             Web & Mobile App
           </div>
-          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+          <div className="col-xs-6 col-sm-12 col-md-12 col-lg-2">
             Software Testing
           </div>
-          <div className="col-xs-6 col-sm-1 col-md-1 col-lg-1">Database</div>
-          <div className="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+          <div className="col-xs-6 col-sm-12 col-md-12 col-lg-1">Database</div>
+          <div className="col-xs-6 col-sm-12 col-md-12 col-lg-2">
             Software Engineering
           </div>
         </div>

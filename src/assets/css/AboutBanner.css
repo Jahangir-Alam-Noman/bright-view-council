@@ -16,3 +16,25 @@
   width: 600px;
   margin-left: 200px;
 }
+
+@media all and (max-width: 492px) {
+  .about_content {
+    font-weight: normal;
+    font-size: small;
+    text-align: justify;
+    width: 70%;
+    margin-left: 50px;
+    padding: 5px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .about_content {
+    font-weight: normal;
+    font-size: small;
+    width: 70%;
+    text-align: justify;
+    margin-left: 50px;
+    padding: 5px;
+  }
+}

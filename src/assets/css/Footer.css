@@ -5,6 +5,18 @@
   padding-top: 62px;
   /* padding-bottom: 62px; */
 }
+
+@media all and (max-width: 492px) {
+  .footer_top {
+    padding-left: 50px;
+  }
+}
+@media all and (max-width: 800px) {
+  .footer_top {
+    padding-left: 50px;
+  }
+}
+
 .footer_top {
   padding-bottom: 62px;
 }

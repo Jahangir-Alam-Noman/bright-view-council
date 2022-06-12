@@ -5,10 +5,10 @@ import image from "../../../assets/img/grinding-knowledge/Vector_1.png";
 
 const GrindingKnowledge = () => {
   return (
-    <div className='container grinding_knowledge mt-4 p-5 text-start'>
-      <div className='row'>
-        <div className='col-xs-12 col-sm-7 col-md-7 col-lg-7'>
-          <h2 className='fw-bolder'>We are hub of Grinding knowledge</h2>
+    <div className="container grinding_knowledge mt-4 p-5 text-start">
+      <div className="row">
+        <div className="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+          <h2 className="fw-bolder">We are hub of Grinding knowledge</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Praesentium vero odit dicta illo veritatis assumenda quibusdam eaque
@@ -25,8 +25,8 @@ const GrindingKnowledge = () => {
             quisquam exercitationem optio rerum unde. Tempore odio minus.
           </p>
         </div>
-        <div className='col-xs-12 col-sm-5 col-md-5 col-lg-5 grinding_knowledge_image'>
-          <img src={image} alt='' />
+        <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5 grinding_knowledge_image">
+          <img src={image} alt="" />
         </div>
       </div>
     </div>

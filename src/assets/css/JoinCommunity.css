@@ -4,3 +4,9 @@
   background-color: #ffffff;
   padding: 70px;
 }
+
+@media all and (max-width: 492px) {
+  .join_community {
+    text-align: left;
+  }
+}
