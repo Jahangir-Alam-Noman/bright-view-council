@@ -44,3 +44,18 @@ ul {
     width: 50px;
   }
 }
+
+@media all and (max-width: 500px) {
+  .course_banner {
+    padding: 50px;
+    font-size: small;
+    font-weight: normal;
+  }
+}
+@media all and (max-width: 900px) {
+  .course_banner {
+    padding-left: 100px;
+    font-size: small;
+    font-weight: normal;
+  }
+}

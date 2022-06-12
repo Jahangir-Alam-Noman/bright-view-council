@@ -5,6 +5,7 @@ import React from "react";
 import image1 from "../../../assets/img/Trending-courses/course_1.png";
 import image2 from "../../../assets/img/Trending-courses/course_2.jpg";
 import image3 from "../../../assets/img/Trending-courses/course_3.jpg";
+import image4 from "../../../assets/img/profile/profile.png";
 
 const NetworkingCourses = () => {
   return (
@@ -34,7 +35,7 @@ const NetworkingCourses = () => {
 
             <div>
               <small className=" fw-bolder">Feb 18, 2022</small>
-              <img src="" />
+              <img src={image4} className="rounded float-end" />
             </div>
           </div>
         </div>
@@ -71,7 +72,7 @@ const NetworkingCourses = () => {
 
             <div>
               <small className=" fw-bolder">Feb 18, 2022</small>
-              <img src="" />
+              <img src={image4} className="rounded float-end" />
             </div>
           </div>
         </div>
@@ -98,7 +99,7 @@ const NetworkingCourses = () => {
 
             <div>
               <small className=" fw-bolder">Feb 18, 2022</small>
-              <img src="" />
+              <img src={image4} className="rounded float-end" />
             </div>
           </div>
         </div>

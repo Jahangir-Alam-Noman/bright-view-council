@@ -9,7 +9,7 @@ const CourseBanner = () => {
     <div className="courseBanner container-fluid text-start">
       <div className="course_content  ">
         <div className="row">
-          <div className=" col-xs-12  col-sm-7 offset-sm-1  col-md-7 offset-md-1  col-lg-7 offset-lg-1">
+          <div className=" course_banner col-xs-12  col-sm-7 offset-sm-1  col-md-7 offset-md-1  col-lg-7 offset-lg-1">
             <h3 className="fw-bolder">Data Science : Full Bootcamp</h3>
             <p>
               We have design some of the top IT courses that will take you hand
@@ -33,7 +33,7 @@ const CourseBanner = () => {
               <div className="card-body">
                 <div className="div">
                   <h5 className="card-title fw-bold pt-2">$250.00</h5>
-                  <p className="text-muted">30-days m0ney back-gurantee</p>
+                  <p className="text-muted">30-days money back-gurantee</p>
                 </div>
                 <button type="button" className="btn btn-dark w-100">
                   Enroll Now
