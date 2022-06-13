@@ -35,13 +35,23 @@ ul {
 }
 
 @media only screen and (max-width: 800px) {
-  /*  .course_position {
-    position: relative;
-    top: 170px;
-    left: 250px;
-  } */
   .course_card {
-    width: 50px;
+    width: 200px;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .course_banner {
+    padding-bottom: 100px;
+    font-size: small;
+    font-weight: normal;
+  }
+}
+@media all and (max-width: 418px) {
+  .course_banner {
+    padding: 100px;
+    font-size: small;
+    font-weight: normal;
   }
 }
 

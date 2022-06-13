@@ -27,7 +27,7 @@ const CourseBanner = () => {
             </div>
           </div>
 
-          <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4 course_position">
+          <div className="col-xs-12 d-none d-sm-block col-sm-4 col-md-4 col-lg-4 course_position">
             <div className="card  course_card p-3">
               <img src={image1} className="card-img-top" alt="..." />
               <div className="card-body">

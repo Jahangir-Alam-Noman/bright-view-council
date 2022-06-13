@@ -10,3 +10,8 @@
     text-align: left;
   }
 }
+@media all and (max-width: 800px) {
+  .join_community {
+    text-align: left;
+  }
+}

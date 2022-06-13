@@ -24,12 +24,14 @@
     padding: 5px;
   }
 }
+
 @media all and (max-width: 1000px) {
   .best_course {
     font-weight: normal;
     font-size: small;
     width: 50%;
-    padding: 5px;
+    padding: 15px;
+    /* text-align: justify; */
   }
 }
 /* @media all and (max-width: 800px) {

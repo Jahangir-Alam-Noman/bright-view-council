@@ -8,3 +8,18 @@
   left: 865px;
   width: 390px;
 }
+
+@media all and (max-width: 470px) {
+  .about {
+    /* padding-left: 60px; */
+    width: 650px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .about {
+    /* padding-left: 60px; */
+    width: 750px;
+    text-align: justify;
+  }
+}

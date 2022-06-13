@@ -6,7 +6,7 @@ import image2 from "../../../assets/img/instructor/Rectangle 34.png";
 const AboutCourse = () => {
   return (
     <div>
-      <div className="container   mt-4">
+      <div className="container about  mt-4">
         <div className="row">
           <div className="col-8 h-100 about_course p-5 text-start">
             <h2>About This Course</h2>
@@ -22,7 +22,7 @@ const AboutCourse = () => {
               maiores laboriosam! Nisi, numquam. Blanditiis minus modi nobis ea.
             </p>
           </div>
-          <div className="col-4 instructor text-start">
+          <div className="col-4 d-none d-md-block instructor text-start">
             <div className="card  p-4 mb-3">
               <h5 className="pb-2">Instructors</h5>
               <div className="row g-0">

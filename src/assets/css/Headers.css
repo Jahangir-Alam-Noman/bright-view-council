@@ -10,7 +10,7 @@
 }
 
 .navbar {
-  padding-left: 74px;
+  /* padding-left: 74px; */
   background-color: #ffffff;
   /* height: 100px; */
   padding-top: 1.5rem;
@@ -60,5 +60,11 @@
   .courses_info {
     text-align: left;
     padding-left: 100px;
+  }
+}
+@media all and (max-width: 375px) {
+  .courses_info {
+    text-align: left;
+    padding-left: 15px;
   }
 }

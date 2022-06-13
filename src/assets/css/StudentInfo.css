@@ -12,3 +12,8 @@
     padding: 60px;
   }
 }
+@media all and (max-width: 800px) {
+  .student_info {
+    padding: 60px;
+  }
+}

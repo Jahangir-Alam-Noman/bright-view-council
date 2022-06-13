@@ -4,3 +4,16 @@
 .courseContent .fa {
   color: black;
 }
+
+@media all and (max-width: 470px) {
+  .courseContent {
+    /* padding-left: 60px; */
+    width: 650px;
+  }
+}
+@media all and (max-width: 800px) {
+  .courseContent {
+    /* padding-left: 60px; */
+    width: 650px;
+  }
+}
