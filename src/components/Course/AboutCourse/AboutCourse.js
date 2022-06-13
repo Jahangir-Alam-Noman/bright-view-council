@@ -22,7 +22,7 @@ const AboutCourse = () => {
               maiores laboriosam! Nisi, numquam. Blanditiis minus modi nobis ea.
             </p>
           </div>
-          <div className="col-4 d-none d-md-block instructor text-start">
+          <div className="col-4 d-none d-xl-block instructor text-start">
             <div className="card  p-4 mb-3">
               <h5 className="pb-2">Instructors</h5>
               <div className="row g-0">

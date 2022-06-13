@@ -59,7 +59,7 @@
 @media all and (max-width: 800px) {
   .courses_info {
     text-align: left;
-    padding-left: 100px;
+    padding-left: 20px;
   }
 }
 @media all and (max-width: 375px) {
