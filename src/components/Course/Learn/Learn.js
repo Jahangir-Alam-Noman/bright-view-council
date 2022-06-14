@@ -48,6 +48,7 @@ const Learn = () => {
                   <div className="col-sm-10 ">Database Designing</div>
                   <div className="col-sm-1 pt-2">
                     <i className="fa fa-check" aria-hidden="true"></i>
+                    {/* Hello  */}
                   </div>
                   <div className="col-sm-10 pt-2">State Management</div>
                   <div className="col-sm-1 pt-2">
